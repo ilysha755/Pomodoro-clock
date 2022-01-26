@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900" rel="stylesheet" />
+    <title>Pomodoro clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">   
+  <main>
+            <div id="pomo__title" class="text">
+                <h1 class="pomo__text">Pomodoro Clock</h1>
+                <br>
+                <i class="far fa-clock" style="font-size:120px"></i>
+            </div>
+            <div class="clock">
+                <div id="clock__status" class="text">Session</div>
+                <div id="time__passed" class="number">25:00</div>
+                <div class="session-buttons">
+                    <i id="stop" class="fas fa-stop"></i>
+                    <i id="play" class="fas fa-play"></i>
+                    <i id="pause" class="fas fa-pause"></i>
+                    <i id="restart" class="fas fa-sync"></i>
+                </div>
+            </div>
+            <div class="settings">
+                <div class="options">
+                    <div class="settings__title text">Session</div>
+                    <div class="setting__options number">
+                        <i class="fas fa-angle-down" id="session__time_minus"></i>
+                        <span id="session__settings">25</span>
+                        <i class="fas fa-angle-up" id="session__time_plus"></i>
+                    </div>
+                </div>
+                <div class="opt">
+                    <div class="settings__title text">Break</div>
+                    <div class="setting__options number">
+                        <i class="fas fa-angle-down" id="break__time_minus"></i>
+                        <span id="break__settings">5</span>
+                        <i class="fas fa-angle-up" id="break__time_plus"></i>
+                    </div>
+                </div>
+            </div>
+        </main> 
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/73c3224ba8.js" crossorigin="anonymous"></script>
+</body>
+</html>

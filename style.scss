@@ -1,0 +1,92 @@
+body {
+    background: #FF0101;
+    background: -webkit-linear-gradient(bottom left, #FF0101, #FFDF01);
+    background: -moz-linear-gradient(bottom left, #FF0101, #FFDF01);
+    background: linear-gradient(to top right, #FF0101, #FFDF01);
+    color: cornsilk;
+    overflow-y: hidden;
+}
+
+main {
+    margin: 10% auto;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+}
+
+main div {
+    margin: 5% auto;
+}
+
+main div div {
+    margin: auto auto;
+}
+
+#pomo-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(233, 30, 30);
+}
+.pomo-text{
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.number {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+}
+
+#time__passed {
+    font-size: 70px;
+}
+
+.session-buttons {
+    font-size: 30px;
+    margin: 10px 10px;
+}
+
+.session-buttons i {
+    margin: 0 10px;
+}
+
+.opt {
+    margin: auto 5%;
+}
+
+.settings div {
+    display: inline-block;    
+}
+
+.settings div div {
+    display: block;
+}
+
+#session-time {
+    display: inline-block;
+    width: 70px;
+}
+
+#break-time {
+    display: inline-block;
+    width: 70px;
+}
+
+.fas {
+    color: rgb(233, 30, 30);
+}
+
+
+.fas:hover {
+    color: rgb(233, 121, 30);
+}
+
+.fas:active {
+    color: yellowgreen;
+}
